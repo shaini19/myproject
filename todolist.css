@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://res.cloudinary.com/decvzw9a8/image/upload/v1711115948/pngtree-modern-double-color-futuristic-neon-background-image_351866_vlfvv1.jpg') ;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#task-form {
+    margin-bottom: 20px;
+}
+
+#task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid #dddddd;
+    margin-bottom: 8px;
+}
+
+.task-actions {
+    display: flex;
+    gap: 8px;
+}
+.container input{
+    flex:1;
+    border: none;
+    background: #abaeab;
+    padding: 10px;
+    font-weight: 14px;
+}
+.container button{ 
+    border: none;
+    padding: 10px 30px;
+    color:#fff;
+    background:#5df306;;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+
+}
+
+.complete {
+    text-decoration: line-through;
+  color:#888;
+}
+
